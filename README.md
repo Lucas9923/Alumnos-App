@@ -4,4 +4,4 @@ Requerimientos para que funcione Vetsafe.
 - Luego hay que instalar estas librerias:
 - pip install django-crispy-forms
 - pip install xhtml2pdf
--Luego utilizar el comando "python manage.py runserver" para hacer correr la pagina.
+- Luego utilizar el comando "python manage.py runserver" para hacer correr la pagina.
