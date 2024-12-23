@@ -30,31 +30,50 @@
                             Grid.Row="1"
                             Grid.ColumnSpan="2">
                 <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid ColumnSpacing="10" Padding="5">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Image Grid.RowSpan="2"
-                                   Source="profile.jpg"
-                                   Aspect="AspectFill"
-                                   HeightRequest="60"
-                                   WidthRequest="60"/>
-                        <Label Grid.Column="1"
-                                   Grid.Row="0"
-                                   Text="{Binding NombreCompleto}"
-                                   FontAttributes="Bold"
-                                   FontSize="20"/>
-                        <Label Grid.Column="1"
-                                   Grid.Row="1"
-                                   Text="{Binding Curso.Nombre}"/>
-                    </Grid>
-                </DataTemplate>
+                    <DataTemplate>
+                        <Grid ColumnSpacing="10" Padding="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2"
+                                       Source="profile.jpg"
+                                       Aspect="AspectFill"
+                                       HeightRequest="60"
+                                       WidthRequest="60"/>
+                            <Label Grid.Column="1"
+                                       Grid.Row="0"
+                                       Text="{Binding NombreCompleto}"
+                                       FontAttributes="Bold"
+                                       FontSize="20"/>
+                            <Label Grid.Column="1"
+                                       Grid.Row="1"
+                                       Text="{Binding Curso.Nombre}"/>
+                            <ImageButton x:Name="EditarButton"
+                                         Grid.Column="2"
+                                         Source="edit_icon.png"
+                                         BackgroundColor="Transparent"
+                                         HeightRequest="25"
+                                         WidthRequest="25"
+                                         CommandParameter="{Binding .}"
+                                         Clicked="EditarButton_Clicked"/>
+                            <ImageButton x:Name="deshabilitarButton"
+                                         Grid.Column="3"
+                                         Grid.RowSpan="1"
+                                         Source="disable.png"
+                                         BackgroundColor="Transparent"
+                                         HeightRequest="25"
+                                         WidthRequest="25"
+                                         CommandParameter="{Binding .}"
+                                         Clicked="deshabilitarButton_Clicked"/>
+                            </Grid>
+                    </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </Grid>

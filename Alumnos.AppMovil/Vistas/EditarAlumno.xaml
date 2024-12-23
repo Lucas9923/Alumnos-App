@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alumnos.AppMovil.Vistas.EditarAlumno"
+             Title="EditarAlumno">
+    <StackLayout Padding="10" Spacing="10">
+        <Label Text="Primer Nombre:"/>
+        <Entry x:Name="EditPrimerNombreEntry"/>
+
+        <Label Text="Segundo Nombre:"/>
+        <Entry x:Name="EditSegundoNombreEntry"/>
+
+        <Label Text="Primer Apellido:"/>
+        <Entry x:Name="EditPrimerApellidoEntry"/>
+
+        <Label Text="Segundo Apellido:"/>
+        <Entry x:Name="EditSegundoApellidoEntry"/>
+
+        <Label Text="Correo Electronico:"/>
+        <Entry x:Name="EditCorreoEntry"/>
+
+        <Label Text="Edad:"/>
+        <Entry x:Name="EditEdadEntry"/>
+
+        <Picker Title="Seleccionar Curso"
+                ItemsSource="{Binding ListaCursos}"
+                x:Name="EditCursoPicker"/>
+
+        <Label Text="¿Activo?"/>
+        <Switch x:Name="estadoSwitch" IsToggled="True"/>
+
+        <Button Text="Actualizar"
+                x:Name="ActualizarButton"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="ActualizarButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

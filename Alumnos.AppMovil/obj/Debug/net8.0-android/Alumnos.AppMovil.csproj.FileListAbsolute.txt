@@ -1054,3 +1054,6 @@ C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\an
 C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
 C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\android\assets\System.Reactive.dll
 C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\resizetizer\r\drawable\profile.jpg
+C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\resizetizer\r\drawable\disable.png
+C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\resizetizer\r\drawable\edit_icon.png
+C:\Users\lucas\source\repos\Alumnos\Alumnos.AppMovil\obj\Debug\net8.0-android\Alumnos.AppMovil.sourcelink.json

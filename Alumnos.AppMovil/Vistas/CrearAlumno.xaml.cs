@@ -6,7 +6,7 @@ namespace Alumnos.AppMovil.Vistas;
 
 public partial class CrearAlumno : ContentPage
 {
-	FirebaseClient client = new FirebaseClient("https://registrosestudiantes-e17c9-default-rtdb.firebaseio.com/");
+	FirebaseClient client = new FirebaseClient("https://alumnos-1fb03-default-rtdb.firebaseio.com/");
 
 	public List<Curso> Cursos { get; set; }
 	public CrearAlumno()

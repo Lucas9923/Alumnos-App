@@ -10,6 +10,9 @@
     <MauiXaml Update="Vistas\CrearAlumno.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Vistas\EditarAlumno.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Vistas\ListarAlumnos.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

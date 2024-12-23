@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Alumnos.AppMovil.Vistas.Cr
 build_metadata.AdditionalFiles.TargetPath = Vistas\CrearAlumno.xaml
 build_metadata.AdditionalFiles.RelativePath = Vistas\CrearAlumno.xaml
 
+[C:/Users/lucas/source/repos/Alumnos/Alumnos.AppMovil/Vistas/EditarAlumno.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Alumnos.AppMovil.Vistas.EditarAlumno.xaml
+build_metadata.AdditionalFiles.TargetPath = Vistas\EditarAlumno.xaml
+build_metadata.AdditionalFiles.RelativePath = Vistas\EditarAlumno.xaml
+
 [C:/Users/lucas/source/repos/Alumnos/Alumnos.AppMovil/Vistas/ListarAlumnos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Alumnos.AppMovil.Vistas.ListarAlumnos.xaml

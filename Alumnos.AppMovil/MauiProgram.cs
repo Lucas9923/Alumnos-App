@@ -19,22 +19,54 @@ namespace Alumnos.AppMovil
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
-            Registrar();
+            ActualizarCurso();
+            ActualizarAlumno();
             return builder.Build();
         }
-        public static void Registrar()
+        public static async Task ActualizarCurso()
         {
-            FirebaseClient client = new FirebaseClient("https://registrosestudiantes-e17c9-default-rtdb.firebaseio.com/");
+            FirebaseClient client = new FirebaseClient("https://alumnos-1fb03-default-rtdb.firebaseio.com/");
 
-            var cursos = client.Child("Cursos").OnceAsync<Curso>();
+            var cursos = await client.Child("Cursos").OnceAsync<Curso>();
 
-            if (cursos.Result.Count == 0)
+            if (cursos.Count == 0)
             {
-                client.Child("Cursos").PostAsync(new Curso { Nombre = "1° Basico" });
-                client.Child("Cursos").PostAsync(new Curso { Nombre = "2° Basico" });
-                client.Child("Cursos").PostAsync(new Curso { Nombre = "3° Basico" });
+                await client.Child("Cursos").PostAsync(new Curso { Nombre = "1° Basico" });
+                await client.Child("Cursos").PostAsync(new Curso { Nombre = "2° Basico" });
+                await client.Child("Cursos").PostAsync(new Curso { Nombre = "3° Basico" });
+            }
+            else
+            {
+                foreach (var curso in cursos)
+                {
+                    if (curso.Object.Estado == null)
+                    {
+                        var cursoActualizado = curso.Object;
+                        cursoActualizado.Estado = true;
+
+                        await client.Child("Cursos").Child(curso.Key).PutAsync(cursoActualizado);
+                    }
+                }
+            }
+        }
+
+        public static async Task ActualizarAlumno()
+        {
+            FirebaseClient client = new FirebaseClient("https://alumnos-1fb03-default-rtdb.firebaseio.com/");
+
+            var alumnos = await client.Child("Alumnos").OnceAsync<Alumno>();
+
+            foreach (var alumno in alumnos)
+            {
+                if (alumno.Object.Estado == null)
+                {
+                    var alumnoActualizado = alumno.Object;
+                    alumnoActualizado.Estado = true;
+
+                    await client.Child("Alumnos").Child(alumno.Key).PutAsync(alumnoActualizado);
+                }
             }
         }
     }

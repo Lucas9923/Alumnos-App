@@ -8,6 +8,7 @@ namespace Alumnos.AppMovil.Modelos
 {
     public class Curso
     {
-        public required string Nombre { get; set; }
+        public string? Nombre { get; set; }
+        public bool? Estado { get; set; }
     }
 }

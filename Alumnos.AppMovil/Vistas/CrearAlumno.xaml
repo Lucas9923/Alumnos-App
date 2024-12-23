@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Alumnos.AppMovil.Vistas.CrearAlumno"
              Title="CrearAlumno">
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="10" Spacing="10">
         <Picker Title="Seleccionar Curso"
                 ItemsSource="{Binding Cursos}"
                 ItemDisplayBinding="{Binding Nombre}"

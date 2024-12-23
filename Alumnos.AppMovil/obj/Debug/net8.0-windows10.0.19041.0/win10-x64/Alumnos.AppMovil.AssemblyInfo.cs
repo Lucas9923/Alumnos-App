@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alumnos.AppMovil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2df11b66db301721faaf6bb5509879ecfaf9eeb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alumnos.AppMovil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alumnos.AppMovil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
