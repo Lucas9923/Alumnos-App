@@ -37,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 161,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 239,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,10 +47,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -75,8 +71,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\Vistas\\ListarAlumnos.xaml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-23T03:56:18.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T03:56:18.876Z"
             },
             {
               "$type": "Document",
@@ -88,8 +83,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\Vistas\\EditarAlumno.xaml.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAswFUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T03:51:19.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T03:51:19.729Z"
             },
             {
               "$type": "Document",
@@ -101,8 +95,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\Vistas\\EditarAlumno.xaml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-23T03:50:40.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T03:50:40.158Z"
             },
             {
               "$type": "Document",
@@ -114,8 +107,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\Vistas\\CrearAlumno.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T03:32:55.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T03:32:55.485Z"
             },
             {
               "$type": "Document",
@@ -127,8 +119,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\Vistas\\CrearAlumno.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T04:22:56.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T04:22:56.206Z"
             },
             {
               "$type": "Document",
@@ -140,8 +131,7 @@
               "RelativeToolTip": "Alumnos.AppMovil\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:09:31.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T05:09:31.363Z"
             }
           ]
         }
